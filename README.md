@@ -13,6 +13,11 @@ This repo gives some experimental results of the performance of lookahead optimi
 - Mxnet https://mxnet.apache.org/
 - Python 3.7
 
+## Usage
+For practitioners want to use lookahead in Neural Networks, please click on `MNIST_MLP.ipynb`
+
+For students want to learn how to implement SGD, Adam, Rmsprop with Numpy for logistic regression and linear regression, please refer to `logistic_regression.ipynb`, `residential_linear_regression.ipynb`
+
 ## Note
 For logistic regression experment, the code for optimizers is not encapsulated, written according to the pseudo code provide in the reference below.
 
@@ -20,7 +25,9 @@ For the other experiments, I used the Mxnet framework, thanks to the implement i
 
 ## Reference 
 
-Lookahead Optimizer: k steps forward, 1 step back https://arxiv.org/pdf/1907.08610.pdf
+Lookahead Optimizer: k steps forward, 1 step back. https://arxiv.org/pdf/1907.08610.pdf
 
-Adam: A Method for Stochastic Optimization https://arxiv.org/abs/1412.6980
+Adam: A Method for Stochastic Optimization. https://arxiv.org/abs/1412.6980
+
+RMSProp Hinton's Lecture. https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
 
