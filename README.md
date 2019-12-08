@@ -14,14 +14,14 @@ This repo gives some experimental results of the performance of lookahead optimi
 - Python 3.7
 
 ## Usage
-For practitioners want to use lookahead in Neural Networks, please click on `MNIST_MLP.ipynb`
+For practitioners want to use lookahead in Neural Networks, please click on `MNIST_MLP.ipynb`, `residential_linear_regression.ipynb`.
 
-For students want to learn how to implement SGD, Adam, Rmsprop with Numpy for logistic regression and linear regression, please refer to `logistic_regression.ipynb`, `residential_linear_regression.ipynb`
+For students want to learn how to implement SGD, Adam, Rmsprop with Numpy for logistic regression, please refer to `logistic_regression.ipynb`. For linear regression, you may change the loss function and computation of gradient by yourself.
 
 ## Note
 For logistic regression experment, the code for optimizers is not encapsulated, written according to the pseudo code provide in the reference below.
 
-For the other experiments, I used the Mxnet framework, thanks to the implement in the repo https://github.com/wkcn/LookaheadOptimizer-mx. I modified the code optimizer.py according to the closed issue and fixed the bug.
+For the other experiments, I used the Mxnet framework, thanks to the implement in the repo https://github.com/wkcn/LookaheadOptimizer-mx. I modified the code `optimizer.py` according to the closed issue and fixed the bug.
 
 ## Reference 
 
